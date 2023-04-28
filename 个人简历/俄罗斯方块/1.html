@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>俄罗斯方块</title>
+    <script src="../俄罗斯方块/JS/1.js"></script>
+    <script src="../俄罗斯方块/JS/Game.js"></script>
+    <script src="../俄罗斯方块/JS/BLOCK-JSON.js"></script>
+    <script src="../俄罗斯方块/JS/Block.js"></script>
+    <script src="../俄罗斯方块/JS/Map.js"></script>
+    <style>
+      /* 整体美化 */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        height: 100%;
+        width: 100%;
+      }
+      body {
+        overflow: hidden;
+
+        background: url("../俄罗斯方块/img/0.jpg") repeat-x center bottom;
+        background-size:200% auto;
+      }
+      h2{
+       margin-left:10px;
+        width: 100%;
+        float: left;
+
+      }
+    
+      table {
+        background:#252525;
+        border-collapse: collapse;
+        margin: 20px auto;
+        float: left;
+        margin-left:10px;
+     
+      }
+
+      td {
+        border: 1px solid #424242;
+        width: 30px;
+        height: 30px;
+      }
+      .c1 {
+        background: linear-gradient(to top, pink, red);
+      }
+      .c2 {
+        background: linear-gradient(to top, #ff0080, rgb(237, 12, 237));
+      }
+      .c3 {
+        background: linear-gradient(to top, rgb(255, 89, 0), gold);
+      }
+      .c4 {
+        background: linear-gradient(to top, rgb(245, 0, 237), rgb(160, 4, 251));
+      }
+      .c5 {
+        background: linear-gradient(
+          to top,
+          rgb(32, 247, 111),
+          rgb(37, 216, 248)
+        );
+      }
+      .c6 {
+        background: linear-gradient(to top, rgb(0, 34, 255), rgb(89, 42, 164));
+      }
+      .c7 {
+        background: linear-gradient(to top, rgb(0, 255, 17), rgb(204, 255, 1));
+      }
+    </style>
+  </head>
+  <body>
+    <h2 id="score">分数：0</h2>
+    <h2 id="f">帧编号：0</h2>
+    
+    <script>
+      var game = new Game();
+    </script>
+    
+  </body>
+</html>

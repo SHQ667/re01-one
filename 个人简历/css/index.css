@@ -1,0 +1,126 @@
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        li{
+            list-style: none;
+        }
+        a{
+            color: #333;
+            text-decoration:none ;       
+        }
+.header{
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid #333;
+}
+.c{
+    font-weight: bold;
+}
+.nav-box{
+    max-width:1200px ;
+    margin: 0 auto;
+    height: 40px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #333;
+}
+.nav-box .nav{
+ display: flex;
+            font-size: 15px;
+}
+.nav-box .nav li{
+padding-left: 20px;
+}
+.nav-box .nav a.on,
+.nav-box .nav a:hover{
+    color: #333;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #333;
+}
+.banner{
+    width: 1205px;
+    margin: 0 auto;
+    background: url(../img/1.jpg) no-repeat center center;
+height: 312px;
+text-align: center;
+line-height: 312px;
+color: aliceblue;
+font-size: 30px;
+font-weight: bold;
+text-shadow:0 0 10px black;
+}
+.jieshao h1{
+    margin: 0 auto;
+    margin-top: 80px;
+margin-left: 180px;
+
+}
+.touxiang{
+      margin: 0 auto;
+    margin-top: 30px;
+margin-left: 170px; 
+display: flex;
+
+}
+.touxiang p{
+      margin: 0 auto;
+    margin-top: 20px;
+margin-left: 50px; 
+display: flex;
+font-weight: bold;
+line-height: 40px;
+font-size: 20px;
+}
+.zhuanye{
+    margin-top: 80px;
+}
+.jineng span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.j{
+    margin-top: 30px;
+}
+.jineng p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 180px;
+line-height: 50px;
+}
+.jineng img{
+    width: 800px;
+   
+    margin-left: 180px;
+}
+.xiangmu{
+margin-top: 40px;
+}
+.xiangmu span{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.n{
+    padding: 10px;
+width: 800px;
+height: 500px;
+box-shadow:0px 0px 10px 2px black inset;
+margin-left: 180px;
+margin-top: 20px;
+font-family: '黑体';
+}
+.db{
+   margin-top: 50px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 20px;
+    padding: 80px;
+}
